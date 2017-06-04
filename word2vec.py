@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 15 18:04:22 2017
-
-@author: Ramanuja
-"""
 import sys,re
 import logging
 import itertools
