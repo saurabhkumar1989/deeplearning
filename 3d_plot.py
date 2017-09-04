@@ -5,7 +5,6 @@ x = range(200,6200,200)
 
 [NN1,NN2,NN3,SVM_linear,SVM_gauss,SVM_sigmoid,SVM_poly5,SVM_poly3,SVM_poly2,SVM_poly1,logistic_reg]
 ylim=(0.4, 1.0)
-
 NN1_line = mlines.Line2D([], [], color='#97b21e', marker='o',
                           markersize=5, label='NN[60,6]')
 NN2_line = mlines.Line2D([], [], color='#228d9b', marker='*',
