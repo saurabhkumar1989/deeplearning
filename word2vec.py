@@ -32,7 +32,6 @@ def wordPlot(x,y,tweet,data_lables):
     plt.scatter(
         x, y, marker='o', c=x, s=s,
         cmap=plt.get_cmap('Spectral'))
-    
     for label, x, y in zip(labels, x, y):
         plt.annotate(
             label,
@@ -418,4 +417,3 @@ text = "clf_lr"
 print text+"Accuracy is", accuracy10
 #plotGraph(trans_data_train,y_pred_clf_lr,text,accuracy8)
 #plt_confusion_matrix(y_pred_NN3,text,accuracy1)
-
