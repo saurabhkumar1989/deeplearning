@@ -53,7 +53,6 @@ plt.plot(x,classifier_data[9],marker="8",color='#183238')
 plt.plot(x,classifier_data[10],marker="p",color='#242447')
 plt.grid(True)
 
-
 plt.show()
 import pickle
 NN1 = [1,2]
